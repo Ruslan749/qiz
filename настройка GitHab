@@ -1,0 +1,38 @@
+git init // команда для того чтобы сказать гиту следить за этими файлами(проектом)
+
+git config --local user.name "Ruslan"
+git config --local user.email "aleks99154@yandex.ru" // настройки для того чтобы отображалось кто вносит изменения
+
+git status // статус камитов
+
+git add -A // все данные которые не добавлены в камит дополняться
+git add index.html //  или конкретный файл
+
+git commit -a -m"final qviz burger" // создание и название комита
+
+git remote add origin https://github.com/Ruslan749/qiz.git //  связываем локальный репозиторий и удаленный
+
+git push -u origin main // добавляем наши файлы в репазиторий
+
+
+
+
+
+
+
+
+
+echo "# qiz" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Ruslan749/qiz.git
+git push -u origin main
+
+
+
+
+git remote add origin https://github.com/Ruslan749/qiz.git
+git branch -M main
+git push -u origin main
