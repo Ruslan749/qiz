@@ -12,7 +12,19 @@ git commit -a -m"final qviz burger" // создание и название ко
 
 git remote add origin https://github.com/Ruslan749/qiz.git //  связываем локальный репозиторий и удаленный
 
-git push -u origin main // добавляем наши файлы в репазиторий
+git branch -M main //  создаем ветку 
+
+git push -u origin main // добавляем наши файлы в репазиторий в нашу ветку
+
+            // работа с другова компьютера
+
+git clone https://github.com/Ruslan749/qiz.git  project_2// кланирование репозитория  project_2  название папки куда будет клонироваться
+
+git add -A
+
+git commit -a -m"final qviz burger"
+
+git branch -M main 
 
 
 
